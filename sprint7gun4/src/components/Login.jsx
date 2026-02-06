@@ -80,7 +80,7 @@ export default function Login() {
                         checked={termsAccepted}
                         data-cy="terms"
                     />
-                    Şartları kabul ediyorum
+                    Şartları kabul ediyorum.
 
                 </label>
                 <button
