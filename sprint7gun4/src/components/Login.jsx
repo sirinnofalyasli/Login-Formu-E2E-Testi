@@ -26,7 +26,7 @@ export default function Login() {
         event.preventDefault();
         const newErrors = validasyon(email, password);
 
-        if (!termsAccepted) newErrors.push("Lütfen şartları kabul ediniz.")
+        if (!termsAccepted) newErrors.push("Şartları kabul ediniz.")
 
         if (newErrors.length > 0) {
             setError(newErrors);
